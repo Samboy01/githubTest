@@ -7,7 +7,7 @@
             Console.WriteLine("Hello, I made a change");
 
             int nummer = 4;
-            adderaMedett(nummer);
+            nummer = adderaMedett(nummer);
             Console.WriteLine(nummer);
         }
 
