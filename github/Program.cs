@@ -4,7 +4,17 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Hello, I made a change");
+
+            int nummer = 4;
+            adderaMedett(nummer);
+            Console.WriteLine(nummer);
+        }
+
+        public static int adderaMedett(int nummer)
+        {
+            nummer++;
+            return nummer;
         }
     }
 }
